@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Movie Show Booking</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="booking-container">
+    <h1>🎬 Movie Show Booking</h1>
+
+    <label for="movie">Select Movie:</label>
+    <select id="movie">
+        <option value="">-- Select Movie --</option>
+        <option>Coolie</option>
+        <option>Leo</option>
+        <option>Pushpa 2</option>
+    </select>
+
+    <label for="show">Select Show:</label>
+    <select id="show">
+        <option value="">-- Select Show --</option>
+        <option>10:00 AM</option>
+        <option>2:00 PM</option>
+        <option>6:00 PM</option>
+        <option>9:00 PM</option>
+    </select>
+
+    <label>Select Seats:</label>
+    <div class="seats">
+        <button class="seat">A1</button><button class="seat">A2</button>
+        <button class="seat">A3</button><button class="seat">A4</button>
+        <button class="seat">B1</button><button class="seat">B2</button>
+        <button class="seat">B3</button><button class="seat">B4</button>
+    </div>
+
+    <button id="bookBtn">Book Now</button>
+    <p id="message"></p>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
